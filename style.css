@@ -1,27 +1,22 @@
+body{
+    background: url(./img/1s.jpg) no-repeat center;
+}
 header {
+    background: url(./img/noroot.jpg) no-repeat center;
     background-color: blueviolet;
     position: sticky;
     top: 0px;
     height: 100px; }
-}
+
 main { width: 50%;
     margin: 0 25%;
     float: left; }
-
-aside {
-    background-color: aqua;
-    width: 25%;
-    position: sticky;
-    top: 100px;
-    float: left;
-    margin-left: -100%; 
-}
 nav {
     background-color: chartreuse;
     width: 25%; 
     position: sticky;
     top: 100px;
-    float: right;
+    float: left;
     margin-left: -100%;
 }
 footer {
@@ -33,4 +28,25 @@ footer {
 }
 p {
     text-align: justify;
+}
+#menu ul {
+    padding: 0px;
+}
+#menu ul li {
+    text-align: center;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    width: 250px;
+    list-style-type: none;
+}
+#menu ul li a{
+    text-decoration: none;
+    line-height: 30px;
+    color: black;
+    height:30px;
+    display: block;
+}
+#menu ul li a:hover {
+background: #cecccc;
+color: rgb(56, 38, 38);
 }
